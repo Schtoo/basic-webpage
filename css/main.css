@@ -1,0 +1,58 @@
+.header img{
+  width: 300px;
+  height: 280px;
+  display: inline-block;
+}
+header h1{
+  text-align: center;
+}
+.city img {
+  width: 300px;
+  height: 280px;
+  float:right;
+  margin-left: 10px;
+}
+body{
+  text-align: justify;
+  width: 90%;
+}
+table, th, td{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+.site1 img {
+  width: 300px;
+  height: 250px;
+  float: left;
+  margin-right: 10px;
+}
+.site1 {
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.site2 img {
+  width: 300px;
+  height: 280px;
+  float: right;
+  margin-left: 10px;
+  position:relative;
+  bottom: 50px;
+
+}
+.site2{
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.site3 img {
+  width: 300px;
+  height: 280px;
+  float: left;
+  margin-right: 10px;
+}
+.site3 p{
+  margin-top: 20px;
+  text-align: justify;
+  position:relative;
+  top: 50px;
+}
+@media screen and (min width: 750px)
