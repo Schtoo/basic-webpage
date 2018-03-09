@@ -1,0 +1,15 @@
+.twelve.columns img{
+  float: left;
+  display:inline-block;
+}
+.twelve.columns p{
+  position: relative;
+  left: 1em;
+}
+.four.columns img{
+  margin-right: 15px;
+  float: left;
+}
+.four.columns p{
+  text-align: justify;
+}
