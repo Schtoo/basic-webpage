@@ -1,14 +1,22 @@
-.header img{
-  width: 300px;
-  height: 280px;
-  display: inline-block;
+.header{
+  display: flex;
+  margin-left: 50px;;
 }
-header h1{
+.header img{
+  width: 250px;
+  height: 150px;
+  position:relative;
+  float: right;
+  margin-left: 80px;
+  }
+.header h1{
   text-align: center;
+  position:relative;
+  margin-left: 50px;
 }
 .city img {
-  width: 300px;
-  height: 280px;
+  width: 260px;
+  height: 180px;
   float:right;
   margin-left: 10px;
 }
@@ -21,38 +29,43 @@ table, th, td{
   border-collapse: collapse;
 }
 .site1 img {
-  width: 300px;
-  height: 250px;
+  width: 200px;
+  height: 150px;
   float: left;
   margin-right: 10px;
 }
-.site1 {
-  margin-bottom: 50px;
-  text-align: justify;
+.site1 p{
+  display: inline;
 }
 .site2 img {
-  width: 300px;
-  height: 280px;
-  float: right;
+  width: 200px;
+  height: 150px;
+  float:right;
   margin-left: 10px;
-  position:relative;
-  bottom: 10px;
-
 }
-.site2{
-  text-align: justify;
-  float: left;
+.site2 p{
+  display: inline;
+  margin-top: 5em;
 }
 .site3 img {
-  width: 300px;
-  height: 280px;
-  float: left;
-  margin-right: 10px;
+  width: 200px;
+  height: 150px;
+  float:left;
 }
 .site3 p{
-  margin-top: 20px;
-  text-align: justify;
-  position:relative;
-  top: 50px;
+  display: inline;
 }
-@media screen and (min width: 750px)
+h4 {
+  text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@@media query(min width 630px) {
+    .header h1{
+      position:relative;
+      bottom: 1em;
+    }
+}
