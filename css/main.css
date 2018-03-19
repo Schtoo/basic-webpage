@@ -24,8 +24,7 @@ h1 {
 }
 
 body{
-  margin: 0px auto;
-  margin-left: 5px;
+  margin: auto;
   width:100%;
 }
 
@@ -35,8 +34,9 @@ table, th, td{
 }
 
   .site img{
-    width: 45%;
-    float:left;
+    width: 200px;
+    height:auto;
+    float: left;
   }
   .site p{
     text-align: justify;
@@ -44,7 +44,8 @@ table, th, td{
   }
   .site{
     width: 30%;
-    float:left;
+    display:inline-block;
+    text-align: justify;
   }
 
   .places{
@@ -56,4 +57,11 @@ table, th, td{
     content: "";
     clear: both;
     display: table;
+}
+@media only screen and (max-width: 360px) {
+  .site{
+    width:100%;
+    max-width: 960px;
+    display: inline-block;
+  }
 }
