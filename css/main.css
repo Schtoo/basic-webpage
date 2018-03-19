@@ -1,71 +1,59 @@
 .header{
-  display: flex;
-  margin-left: 50px;
+text-align: center;
 }
+
 .header img{
   width: 250px;
   height: 150px;
-  position:relative;
   float: right;
-  margin-left: 80px;
   }
+
 .header h1{
-  text-align: center;
+  display: inline;
   position:relative;
   margin-left: 50px;
 }
+h1 {
+  text-align: center;
+}
 .city img {
-  width: 260px;
-  height: 180px;
+  width: 250px;
+  height: 150px;
   float:right;
   margin-left: 10px;
 }
+
 body{
-  text-align: justify;
-  width: 90%;
+  margin: 0px auto;
+  margin-left: 5px;
+  width:100%;
 }
+
 table, th, td{
   border:1px solid black;
   border-collapse: collapse;
 }
-.site1 img {
-  width: 200px;
-  height: 150px;
-  float: left;
-  margin-right: 10px;
-}
-.site1 p{
-  display: inline;
-}
-.site2 img {
-  width: 200px;
-  height: 150px;
-  float:right;
-  margin-left: 10px;
-}
-.site2 p{
-  display: inline;
-  margin-top: 5em;
-}
-.site3 img {
-  width: 200px;
-  height: 150px;
-  float:left;
-}
-.site3 p{
-  display: inline;
-}
-h4 {
-  text-align: center;
-}
+
+  .site img{
+    width: 45%;
+    float:left;
+  }
+  .site p{
+    text-align: justify;
+    padding-right: 50px;
+  }
+  .site{
+    width: 30%;
+    float:left;
+  }
+
+  .places{
+    float:left;
+    width: 100%;
+  }
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
-@@media query(min width 630px) {
-    .header h1{
-      position:relative;
-      bottom: 1em;
-    }
 }
