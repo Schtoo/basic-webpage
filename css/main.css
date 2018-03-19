@@ -1,11 +1,11 @@
 .header{
-text-align: center;
+text-align: justify;
 }
 
 .header img{
   width: 250px;
   height: 150px;
-  float: right;
+  float: left;
   }
 
 .header h1{
@@ -25,7 +25,8 @@ h1 {
 
 body{
   margin: auto;
-  width:100%;
+  width:98%;
+  margin: auto;
 }
 
 table, th, td{
@@ -61,7 +62,14 @@ table, th, td{
 @media only screen and (max-width: 360px) {
   .site{
     width:100%;
-    max-width: 960px;
+    max-width: 1894px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .site{
+    width: 100%;
+    max-width: 1894px;
     display: inline-block;
   }
 }
